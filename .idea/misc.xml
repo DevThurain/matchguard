@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/thura/AndroidStudioProjects/MatchGuard/app/src/main/res/drawable/background_match.xml" value="0.1625" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/MatchGuard/app/src/main/res/drawable/background_match_list_body.xml" value="0.1625" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/MatchGuard/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1625" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/MatchGuard/app/src/main/res/font/font.xml" value="0.2791666666666667" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/MatchGuard/app/src/main/res/layout/activity_main.xml" value="0.1721014492753623" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/MatchGuard/app/src/main/res/layout/activity_match_list.xml" value="0.264" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/MatchGuard/app/src/main/res/layout/activity_your_notifications.xml" value="0.20878623188405798" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/MatchGuard/app/src/main/res/layout/viewholder_date.xml" value="0.264" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/MatchGuard/app/src/main/res/layout/viewholder_match.xml" value="0.264" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/MatchGuard/app/src/main/res/layout/viewholder_subscribe_match.xml" value="0.1693840579710145" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/MatchGuard/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.206" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

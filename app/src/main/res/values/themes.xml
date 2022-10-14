@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MatchGuard" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black_normal</item>
+        <item name="colorPrimaryVariant">@color/black_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:colorAccent">@color/orange_accent</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/black_normal</item>
+
+    </style>
+
+    <style name="Theme.MatchGuard.TransparentLightStatusBar" parent="Theme.MatchGuard">
+        <item name="android:windowLightStatusBar">false</item>
+<!--        <item name="android:statusBarColor">@android:color/transparent</item>-->
+    </style>
+
+    <style name="Theme.MatchGuard.TransparentDarkStatusBar" parent="Theme.MatchGuard">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>
