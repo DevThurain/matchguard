@@ -34,12 +34,12 @@ class AlarmReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context?, intent: Intent?) {
         context?.let {
 //            updateCheckStatus(intent?.getStringExtra(EXTRA_MATCH_ID)?: "")
-//            buildNotification(context,intent?.getStringExtra(EXTRA_MESSAGE) ?: "-")
-            ForegroundService.startService(
-                context,
-                message = intent?.getStringExtra(EXTRA_MESSAGE) ?: "",
-                matchId = intent?.getStringExtra(EXTRA_MATCH_ID) ?: ""
-            )
+            buildNotification(context,intent?.getStringExtra(EXTRA_MESSAGE) ?: "-")
+//            ForegroundService.startService(
+//                context,
+//                message = intent?.getStringExtra(EXTRA_MESSAGE) ?: "",
+//                matchId = intent?.getStringExtra(EXTRA_MATCH_ID) ?: ""
+//            )
         }
     }
 

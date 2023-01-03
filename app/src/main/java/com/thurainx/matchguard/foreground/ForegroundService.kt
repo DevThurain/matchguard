@@ -77,12 +77,14 @@ class ForegroundService: Service() {
     private fun updateCheckStatus(matchId: String){
         val mMatchModel = MatchModelImpl
 
-        if(matchId.isNotEmpty())
-        mMatchModel.mMatchDatabase?.matchDao()?.getMatchOrNull(matchId)?.let {
-            it.alreadyShow = true
-            mMatchModel.mMatchDatabase?.matchDao()?.insertMatch(it)
-            Log.d("db_match","update success")
+        if(matchId.isNotEmpty()){
+            mMatchModel.mMatchDatabase?.matchDao()?.getMatchOrNull(matchId)?.let {
+                it.alreadyShow = true
+                mMatchModel.mMatchDatabase?.matchDao()?.insertMatch(it)
+                Log.d("db_match","update success")
+            }
         }
+
     }
 
 }

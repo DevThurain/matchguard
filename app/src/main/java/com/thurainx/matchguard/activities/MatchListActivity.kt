@@ -155,12 +155,12 @@ class MatchListActivity : AppCompatActivity(), DateDelegate, NotiDelegate {
             alarmManager.setAlarmClock(info, pendingIntent)
 
 //            pendingIntent = PendingIntent.getBroadcast(this, getCurrentTimeInMilli().toInt() + 1, intent, 0)
-//            info = AlarmManager.AlarmClockInfo(
-//                DateUtils().unixTimeToMillis(1665066420),
+//             info = AlarmManager.AlarmClockInfo(
+//                DateUtils().unixTimeToMillis("${1672747200}"),
 ////                DateUtils().unixTimeToMillis(matchVO.unixTime.toString()),
 //                pendingIntent
 //            )
-//            alarmManager.setAlarmClock(info, pendingIntent)
+            alarmManager.setAlarmClock(info, pendingIntent)
             Toast.makeText(this,"${matchVO.leftTeamName} vs ${matchVO.rightTeamName} match will notify in time.", Toast.LENGTH_SHORT).show()
 
         }else{
